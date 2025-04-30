@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rwscode/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 var (

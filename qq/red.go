@@ -21,8 +21,8 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // SendCashRed 创建现金红包

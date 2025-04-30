@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strings"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // alipay.user.info.auth(用户登陆授权)

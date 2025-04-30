@@ -16,9 +16,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/rwscode/payutil/alipay"
-	"github.com/rwscode/payutil/pkg/xlog"
-	"github.com/rwscode/payutil/pkg/xrsa"
+	"github.com/go-the-way/payutil/alipay"
+	"github.com/go-the-way/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xrsa"
 )
 
 var ctx = context.Background()

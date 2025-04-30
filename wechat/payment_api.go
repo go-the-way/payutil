@@ -31,10 +31,10 @@ import (
 	"net/http"
 	"strings"
 
-	pay "github.com/rwscode/payutil"
-	xaes "github.com/rwscode/payutil/pkg/aes"
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xhttp"
+	pay "github.com/go-the-way/payutil"
+	xaes "github.com/go-the-way/payutil/pkg/aes"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xhttp"
 )
 
 // ParseNotifyToBodyMap 解析微信支付异步通知的结果到BodyMap（推荐）

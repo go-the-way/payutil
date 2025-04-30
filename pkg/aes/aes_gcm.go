@@ -16,7 +16,7 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	"github.com/rwscode/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // AES-GCM 加密数据

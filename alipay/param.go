@@ -16,7 +16,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/rwscode/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // AppId   string `json:"app_id"`   //支付宝分配给开发者的应用ID

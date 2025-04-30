@@ -15,7 +15,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
-	"github.com/rwscode/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/util"
 	"io"
 	"net/url"
 	"sort"

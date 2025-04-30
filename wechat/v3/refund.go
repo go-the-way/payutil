@@ -15,7 +15,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	pay "github.com/rwscode/payutil"
+	pay "github.com/go-the-way/payutil"
 	"net/http"
 )
 

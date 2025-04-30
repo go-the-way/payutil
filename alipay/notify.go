@@ -17,8 +17,8 @@ import (
 	"net/http"
 	"net/url"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // 解析支付宝支付异步通知的参数到BodyMap

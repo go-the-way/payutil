@@ -12,7 +12,7 @@
 package main
 
 import (
-	"github.com/rwscode/payutil/payssion"
+	"github.com/go-the-way/payutil/payssion"
 	"log"
 	"net/url"
 	"os"

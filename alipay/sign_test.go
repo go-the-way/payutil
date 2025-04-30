@@ -15,9 +15,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/xlog"
-	"github.com/rwscode/payutil/pkg/xrsa"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xrsa"
 )
 
 func TestSyncVerifySign(t *testing.T) {

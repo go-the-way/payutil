@@ -19,7 +19,7 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	pay "github.com/rwscode/payutil"
+	pay "github.com/go-the-way/payutil"
 	"io"
 	"io/ioutil"
 	"mime/multipart"
@@ -29,7 +29,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rwscode/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 type Client struct {

@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"strings"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // VerifySign 微信同步返回参数验签或异步通知参数验签

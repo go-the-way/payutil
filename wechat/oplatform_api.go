@@ -21,7 +21,7 @@ package wechat
 import (
 	"context"
 
-	"github.com/rwscode/payutil/pkg/xhttp"
+	"github.com/go-the-way/payutil/pkg/xhttp"
 )
 
 // GetOauth2AccessToken 微信第三方登录，code 换取 access_token

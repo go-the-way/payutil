@@ -15,7 +15,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/rwscode/payutil/pkg/errgroup"
+	"github.com/go-the-way/payutil/pkg/errgroup"
 )
 
 func TestLog(t *testing.T) {

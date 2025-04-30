@@ -19,10 +19,10 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/aes"
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xpem"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/aes"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xpem"
 )
 
 // 敏感信息加密，默认使用最新的有效微信平台证书加密

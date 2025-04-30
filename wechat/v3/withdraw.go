@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"time"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // 特约商户余额提现、二级商户预约提现

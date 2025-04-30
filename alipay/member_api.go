@@ -16,8 +16,8 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // alipay.user.info.share(支付宝会员授权信息查询接口)

@@ -2,7 +2,7 @@
 
 > 具体API使用介绍，请参考`gopay/paypal/client_test.go`,`gopay/paypal/order_test.go`,`gopay/paypal/payment_test.go` 等xxx_test.go
 
-- 已实现API列表附录：[API List](https://github.com/rwscode/payutil/blob/main/doc/paypal.md#%E9%99%84%E5%BD%95)
+- 已实现API列表附录：[API List](https://github.com/go-the-way/payutil/blob/main/doc/paypal.md#%E9%99%84%E5%BD%95)
 
 - PayPal官方文档：[Official Document](https://developer.paypal.com/docs/api/overview)
 
@@ -12,9 +12,9 @@
 
 ```go
 import (
-"github.com/rwscode/payutil/paypal"
-pay "github.com/rwscode/payutil"
-"github.com/rwscode/payutil/pkg/xlog"
+"github.com/go-the-way/payutil/paypal"
+pay "github.com/go-the-way/payutil"
+"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 // 初始化PayPal支付客户端
@@ -43,12 +43,12 @@ client.DebugSwitch = pay.DebugOn
 
 ```go
 import (
-    "github.com/rwscode/payutil"
-    "github.com/rwscode/payutil/paypal"
-    pay "github.com/rwscode/payutil"
-"github.com/rwscode/payutil/pkg/util"
-    pay "github.com/rwscode/payutil"
-"github.com/rwscode/payutil/pkg/xlog"
+    "github.com/go-the-way/payutil"
+    "github.com/go-the-way/payutil/paypal"
+    pay "github.com/go-the-way/payutil"
+"github.com/go-the-way/payutil/pkg/util"
+    pay "github.com/go-the-way/payutil"
+"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 // Create Orders example
@@ -86,9 +86,9 @@ if ppRsp.Code != paypal.Success {
 
 ```go
 import (
-    "github.com/rwscode/payutil"
-    pay "github.com/rwscode/payutil"
-"github.com/rwscode/payutil/pkg/xlog"
+    "github.com/go-the-way/payutil"
+    pay "github.com/go-the-way/payutil"
+"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 // Capture payment for order

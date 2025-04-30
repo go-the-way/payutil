@@ -22,10 +22,10 @@ import (
 	"strings"
 	"time"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xlog"
-	"github.com/rwscode/payutil/pkg/xpem"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xpem"
 )
 
 // Deprecated

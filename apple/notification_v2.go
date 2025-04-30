@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/rwscode/payutil/pkg/jwt"
+	"github.com/go-the-way/payutil/pkg/jwt"
 )
 
 // rootPEM is from `openssl x509 -inform der -in AppleRootCA-G3.cer -out apple_root.pem`

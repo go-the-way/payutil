@@ -18,8 +18,8 @@ import (
 	"net/http"
 	"net/url"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // 获取对私银行卡号开户银行

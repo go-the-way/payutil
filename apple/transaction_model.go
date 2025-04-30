@@ -14,7 +14,7 @@ package apple
 import (
 	"fmt"
 
-	"github.com/rwscode/payutil/pkg/jwt"
+	"github.com/go-the-way/payutil/pkg/jwt"
 )
 
 type SignedTransaction string

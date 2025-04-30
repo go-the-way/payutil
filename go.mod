@@ -1,4 +1,4 @@
-module github.com/rwscode/payutil
+module github.com/go-the-way/payutil
 
 go 1.18
 

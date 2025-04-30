@@ -14,10 +14,10 @@ package pay
 import (
 	"encoding/json"
 	"encoding/xml"
-	"github.com/rwscode/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/util"
 	"testing"
 
-	"github.com/rwscode/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 func TestBodyMapSetBodyMap(t *testing.T) {

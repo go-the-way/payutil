@@ -15,8 +15,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // alipay.fund.trans.uni.transfer(单笔转账接口)

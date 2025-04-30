@@ -26,15 +26,15 @@ import (
 	"sync"
 	"time"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/aes"
-	"github.com/rwscode/payutil/pkg/errgroup"
-	"github.com/rwscode/payutil/pkg/retry"
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xhttp"
-	"github.com/rwscode/payutil/pkg/xlog"
-	"github.com/rwscode/payutil/pkg/xpem"
-	"github.com/rwscode/payutil/pkg/xtime"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/aes"
+	"github.com/go-the-way/payutil/pkg/errgroup"
+	"github.com/go-the-way/payutil/pkg/retry"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xhttp"
+	"github.com/go-the-way/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xpem"
+	"github.com/go-the-way/payutil/pkg/xtime"
 )
 
 // 获取微信平台证书公钥（获取后自行保存使用，如需定期刷新功能，自行实现）

@@ -13,10 +13,10 @@ package wechat
 
 import (
 	"context"
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xlog"
-	"github.com/rwscode/payutil/wechat"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/wechat"
 )
 
 var ctx = context.Background()

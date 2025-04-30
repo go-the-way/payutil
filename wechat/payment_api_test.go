@@ -14,7 +14,7 @@ package wechat
 import (
 	"testing"
 
-	"github.com/rwscode/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 func TestDecryptRefundNotifyReqInfo(t *testing.T) {

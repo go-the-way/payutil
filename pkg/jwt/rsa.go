@@ -16,7 +16,7 @@ import (
 	"crypto/rand"
 	"crypto/rsa"
 	"fmt"
-	pay "github.com/rwscode/payutil"
+	pay "github.com/go-the-way/payutil"
 )
 
 // Implements the RSA family of signing methods signing methods

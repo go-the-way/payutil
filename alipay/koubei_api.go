@@ -15,7 +15,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	pay "github.com/rwscode/payutil"
+	pay "github.com/go-the-way/payutil"
 )
 
 // koubei.trade.order.aggregate.consult(聚合支付订单咨询服务)

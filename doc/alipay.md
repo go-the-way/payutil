@@ -4,7 +4,7 @@
 
 > #### 希望有时间的伙伴儿Fork完后，补充并提交Pull Request，一起完善支付宝各个类别下的接口到相应的go文件中
 
-- 已实现API列表附录：[API 列表附录](https://github.com/rwscode/payutil/blob/main/doc/alipay.md#%E9%99%84%E5%BD%95)
+- 已实现API列表附录：[API 列表附录](https://github.com/go-the-way/payutil/blob/main/doc/alipay.md#%E9%99%84%E5%BD%95)
 
 - 支付宝官方文档：[官方文档](https://openhome.alipay.com/docCenter/docCenter.htm)
 
@@ -20,9 +20,9 @@
 
 ```go
 import (
-    "github.com/rwscode/payutil/alipay"
-    pay "github.com/rwscode/payutil"
-"github.com/rwscode/payutil/pkg/xlog"
+    "github.com/go-the-way/payutil/alipay"
+    pay "github.com/go-the-way/payutil"
+"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 // 初始化支付宝客户端
@@ -74,7 +74,7 @@ err := client.SetCertSnByContent("appCertPublicKey bytes", "alipayRootCert bytes
 
 ```go
 import (
-    "github.com/rwscode/payutil"
+    "github.com/go-the-way/payutil"
 )
 
 // 初始化 BodyMap
@@ -114,7 +114,7 @@ if err != nil {
 
 ```go
 import (
-    "github.com/rwscode/payutil/alipay"
+    "github.com/go-the-way/payutil/alipay"
 )
 
 aliRsp, err := client.TradePay(bm)
@@ -141,7 +141,7 @@ ok, err := alipay.VerifySyncSignWithCert(aliPayPublicKeyCert, aliRsp.SignData, a
 
 ```go
 import (
-    "github.com/rwscode/payutil/alipay"
+    "github.com/go-the-way/payutil/alipay"
 )
 
 // 解析异步通知的参数
@@ -189,9 +189,9 @@ return c.String(http.StatusOK, "success")
 
 ```go
 import (
-    "github.com/rwscode/payutil/alipay"
-    pay "github.com/rwscode/payutil"
-"github.com/rwscode/payutil/pkg/xlog"
+    "github.com/go-the-way/payutil/alipay"
+    pay "github.com/go-the-way/payutil"
+"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 // 换取授权访问令牌（默认使用utf-8，RSA2）

@@ -2,7 +2,7 @@
 
 > #### 推荐使用v3接口，官方在v3接口实现未覆盖或gopay未开发的接口，还继续用v2接口。
 
-- 已实现API列表附录：[API 列表附录](https://github.com/rwscode/payutil/blob/main/doc/wechat_v2.md#%E9%99%84%E5%BD%95)
+- 已实现API列表附录：[API 列表附录](https://github.com/go-the-way/payutil/blob/main/doc/wechat_v2.md#%E9%99%84%E5%BD%95)
 
 ---
 
@@ -16,7 +16,7 @@
 
 ```go
 import (
-    "github.com/rwscode/payutil/wechat"
+    "github.com/go-the-way/payutil/wechat"
 )
 
 // 初始化微信客户端
@@ -58,9 +58,9 @@ client.AddCertPkcs12FileContent()
 
 ```go
 import (
-    pay "github.com/rwscode/payutil"
-"github.com/rwscode/payutil/pkg/util"
-    "github.com/rwscode/payutil/wechat"
+    pay "github.com/go-the-way/payutil"
+"github.com/go-the-way/payutil/pkg/util"
+    "github.com/go-the-way/payutil/wechat"
 )
 
 // 初始化 BodyMap
@@ -110,7 +110,7 @@ wxRsp, err := client.Transfer(bm)
 
 ```go
 import (
-    "github.com/rwscode/payutil/wechat"
+    "github.com/go-the-way/payutil/wechat"
 )
 
 // ====微信小程序 paySign====
@@ -161,8 +161,8 @@ paySign := wechat.GetH5PaySign(AppID, wxRsp.NonceStr, packages, wechat.SignType_
 
 ```go
 import (
-    "github.com/rwscode/payutil"
-    "github.com/rwscode/payutil/wechat"
+    "github.com/go-the-way/payutil"
+    "github.com/go-the-way/payutil/wechat"
 )
 
 // ====同步返回参数验签Sign====

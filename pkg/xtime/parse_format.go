@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/rwscode/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // 解析时间

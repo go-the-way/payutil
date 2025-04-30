@@ -16,14 +16,14 @@ import (
 	"crypto/rsa"
 	"encoding/json"
 	"fmt"
-	pay "github.com/rwscode/payutil"
+	pay "github.com/go-the-way/payutil"
 	"time"
 
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xhttp"
-	"github.com/rwscode/payutil/pkg/xlog"
-	"github.com/rwscode/payutil/pkg/xpem"
-	"github.com/rwscode/payutil/pkg/xrsa"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xhttp"
+	"github.com/go-the-way/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xpem"
+	"github.com/go-the-way/payutil/pkg/xrsa"
 )
 
 type Client struct {

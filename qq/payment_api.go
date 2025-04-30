@@ -27,8 +27,8 @@ import (
 	"reflect"
 	"strings"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // ParseNotifyToBodyMap 解析QQ支付异步通知的结果到BodyMap

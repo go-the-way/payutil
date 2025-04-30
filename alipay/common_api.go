@@ -20,16 +20,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	pay "github.com/rwscode/payutil"
+	pay "github.com/go-the-way/payutil"
 	"net/url"
 	"reflect"
 	"time"
 
-	xaes "github.com/rwscode/payutil/pkg/aes"
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xhttp"
-	"github.com/rwscode/payutil/pkg/xpem"
-	"github.com/rwscode/payutil/pkg/xrsa"
+	xaes "github.com/go-the-way/payutil/pkg/aes"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xhttp"
+	"github.com/go-the-way/payutil/pkg/xpem"
+	"github.com/go-the-way/payutil/pkg/xrsa"
 )
 
 // 格式化请求URL参数

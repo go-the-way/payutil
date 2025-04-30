@@ -20,8 +20,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/xlog"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 type Resource struct {

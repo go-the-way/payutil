@@ -30,11 +30,11 @@ import (
 	"reflect"
 	"strings"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
-	"github.com/rwscode/payutil/pkg/xlog"
-	"github.com/rwscode/payutil/pkg/xpem"
-	"github.com/rwscode/payutil/pkg/xrsa"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
+	"github.com/go-the-way/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xpem"
+	"github.com/go-the-way/payutil/pkg/xrsa"
 )
 
 // 允许进行 sn 提取的证书签名算法

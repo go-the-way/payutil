@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"net/http"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // （服务商、电商模式）APP下单API

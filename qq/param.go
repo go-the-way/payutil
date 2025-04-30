@@ -25,8 +25,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 	"golang.org/x/crypto/pkcs12"
 )
 

@@ -15,7 +15,7 @@ import (
 	"context"
 	"encoding/xml"
 	"fmt"
-	pay "github.com/rwscode/payutil"
+	pay "github.com/go-the-way/payutil"
 )
 
 // 订单附加信息提交（正式环境）

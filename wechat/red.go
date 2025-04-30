@@ -20,8 +20,8 @@ import (
 	"context"
 	"encoding/xml"
 	"fmt"
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // 发放现金红包

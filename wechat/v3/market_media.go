@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"net/http"
 
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/util"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/util"
 )
 
 // 图片上传（营销专用）

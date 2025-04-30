@@ -16,7 +16,7 @@ import (
 	"encoding/hex"
 	"encoding/xml"
 	"fmt"
-	"github.com/rwscode/payutil/pkg/xlog"
+	"github.com/go-the-way/payutil/pkg/xlog"
 	"testing"
 )
 

@@ -16,8 +16,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	pay "github.com/go-the-way/payutil"
 
-	"github.com/rwscode/payutil/pkg/xhttp"
+	"github.com/go-the-way/payutil/pkg/xhttp"
 )
 
 // 获取开放平台，access_token 返回结构体

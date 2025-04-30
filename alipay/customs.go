@@ -15,9 +15,9 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	pay "github.com/rwscode/payutil"
-	"github.com/rwscode/payutil/pkg/xhttp"
-	"github.com/rwscode/payutil/pkg/xlog"
+	pay "github.com/go-the-way/payutil"
+	"github.com/go-the-way/payutil/pkg/xhttp"
+	"github.com/go-the-way/payutil/pkg/xlog"
 )
 
 // alipay.trade.customs.declare(统一收单报关接口)
